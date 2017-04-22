@@ -1,2 +1,5 @@
 apt-get update
-apt-get install python2.7 python-pip python-django python-dev python-virtualenv libldap2-dev libsasl2-dev libssl-dev
+apt-get install git python2.7 python-pip python-django python-dev python-virtualenv libldap2-dev libsasl2-dev libssl-dev
+git clone https://github.com/rosedu/wouso
+cd wouso 
+pip install -r requirements-pip
